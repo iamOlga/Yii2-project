@@ -1,0 +1,23 @@
+body{
+    background-color: #F1F1F1;
+    font-family: 'Raleway', sans-serif;
+}
+.container_banner{
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+}
+.container_banner div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-img img{
+    height: 90%;
+}
+
+.title{
+    font-size: 100px;
+}

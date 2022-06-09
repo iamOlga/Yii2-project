@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container_account{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.container_categories{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    background-color: #D9F3F1;
+}
+
+
+.categories_buttons{
+    padding: 7px 14px;
+    display: inline-block;
+    border: 1px solid #007E83;
+    color: #317072;
+    background-color: #F1F1F1;
+}
+.categories_buttons:hover{
+    text-decoration: none;
+    color: #F1F1F1;
+    background-color: #007E83;
+}
+.talons_button{
+    width: 30%;
+}
+
+.container_service{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #007E83;
+}
+
+.container_date_time{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    align-items: center;
+}
+#reception-time label{
+    margin-right: 10px;
+}
+
+
+.container_info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.container_info div{
+    display: flex;
+    flex-direction: column;
+}
+.container_info div input{
+    border: 1px solid #007E83;
+    padding: 7px 14px;
+    width: 300px;
+    background-color: #F1F1F1;
+}
+
+.button_submit{
+    width: 150px;
+    color: #F1F1F1;
+    padding: 7px 14px;
+    background-color: #007E83;
+    border: 1px solid #007E83;
+}
+.button_submit:hover{
+    color: #007E83;
+    background-color: #F1F1F1;
+}
+
+
+
+
+/* orders */
+.orders_service{
+    display: flex;
+    flex-direction: row;
+    background-color: #d9f3f1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.orders_service div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.orders_service div a{
+    
+    width: 200px;
+}

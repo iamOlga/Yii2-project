@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container_services{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 30%;
+    background-color: #d9f3f1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item_category{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #024d46;
+    border-bottom: 1px solid #024d46;
+}
+
+.service{
+    margin: 20px 0;
+}
+.item_price{
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0a8377;
+}
+
